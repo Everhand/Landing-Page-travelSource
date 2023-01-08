@@ -28,7 +28,7 @@ header{
 }
 .bi-truck-front{
     display: flex ;
-    color:rgba(222, 122, 0, 0.989);
+    color: rgba(222, 122, 0, 0.989);
     font-weight: bold;
     font-size: 30px;
 }
