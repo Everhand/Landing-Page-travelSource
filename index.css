@@ -1,0 +1,92 @@
+/*reset Css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*general styles*/
+body{
+    font-family: 'monserrat' , sans-serif;
+}
+/*Container class general*/
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+/*header*/
+header{
+    color:#33282d;
+    font-weight:500;
+    font-size: 20px;
+    padding: 30px 0px;
+
+}
+.background-image{
+    background-image: url(./assets/background\ beach.jpg);
+    background-size: 100%;
+}
+.bi-truck-front{
+    display: flex ;
+    color:rgba(222, 122, 0, 0.989);
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo-container{
+    display: flex;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.list-nav{ 
+display: flex;
+list-style: none;
+gap: 60px;
+}
+/*Hero*/
+main{
+    height: 600px;
+}
+.hero{
+    color: white;
+    width: 100%;
+    padding: 50px 0;
+    
+}   
+.hero-elements{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.hero-title h1{
+    color:#33282d;
+    font-family: 'Merriweather';
+    font-size: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 79px;
+
+}
+.hero-title h2{
+    padding-bottom: 40px;
+}
+.hero-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.button-container a{
+    color: white;
+    padding: 20px 10px;
+    border-radius: 30px;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+.button-reserve{
+    background-color: #33282d;
+
+
+}
+
