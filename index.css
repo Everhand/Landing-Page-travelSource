@@ -14,12 +14,15 @@ body{
     margin: 0 auto;
     max-width: 1150px;
 }
+.padding-section{
+    padding:80px 0px;
+}
 /*header*/
 header{
     color:#33282d;
     font-weight:500;
     font-size: 20px;
-    padding: 30px 0px;
+    padding: 30px 0px ;
 
 }
 .background-image{
@@ -60,12 +63,13 @@ main{
     grid-template-columns: repeat(2,1fr);
 }
 .hero-title h1{
-    color:#33282d;
+    color:white;
     font-family: 'Merriweather';
     font-size: 50px;
     gap: 40px;
     flex-wrap: wrap;
     padding-top: 79px;
+    font-weight: bold;
 
 }
 .hero-title h2{
@@ -85,8 +89,21 @@ main{
     
 }
 .button-reserve{
-    background-color: #33282d;
+    background-color:rgba(222, 122, 0, 0.989);
+}
+.list-container{
+    display: grid;
+    list-style: none;
+    gap: 40px;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.list-container h2{
+    margin-bottom: 10px;
 
-
+}
+.info{
+    color: #33282d;
+    padding: 30px 0px;
 }
 
