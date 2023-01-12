@@ -27,7 +27,8 @@ header{
 }
 .background-image{
     background-image: url(./assets/background\ beach.jpg);
-    background-size: 100%;
+    background-size:cover;
+    
 }
 .bi-truck-front{
     display: flex ;
@@ -103,7 +104,20 @@ main{
 
 }
 .info{
+    
     color: #33282d;
     padding: 30px 0px;
+    max-height: 600px;
 }
+.img-info{
+    width: 300px;
+    height: 400px;
+    padding-top: 20px;
+}
+.img-info1{
+    width: 300px;
+    height: 390px;
+    padding-top: 20px;
+}
+
 
