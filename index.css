@@ -17,6 +17,10 @@ body{
 .padding-section{
     padding:80px 0px;
 }
+.info-padding-section{
+    padding:80px 0px;
+
+}
 /*header*/
 header{
     color:#33282d;
@@ -39,8 +43,13 @@ header{
 .logo-container{
     display: flex;
 }
-nav{
+.nav-header{
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+        align-items: center;
     display: flex;
     justify-content: space-between;
 }
@@ -178,6 +187,7 @@ footer{
     background-color: black;
     height: 400px;
     padding: 80px 0px 50px;
+
 }
 .nav-footer{
     text-align: LEFT;
@@ -239,4 +249,58 @@ footer{
     gap: 50px;
     PADDING-top: 10px
 }
-
+/*media responsive*/
+@media screen and (max-width:992px) {
+    .destinations-list{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .destination-section{
+        padding-left: 60px;
+    }
+    .text-destinations{
+        padding-left: 140px;
+    }
+    .list-container{
+        gap: 15px;
+    }
+    .socialmedia-list-container{
+        margin: 0 15px 0 160px;
+    }
+   .nav-header{
+    justify-content: space-around;
+   }
+   .padding-section{
+    padding-left: 40px;
+   }
+   .info-padding-section{
+    padding-left: 20px;
+   }
+    
+}
+/*resposive movil*/
+@media screen and (max-width: 768px) {
+    .list-nav{
+        gap:20px;
+    }
+    .list-container{
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .socialmedia-list-container{
+        margin:0px;
+        
+    }
+    .nav-footer{
+        padding: 0px;
+    }
+    .socialmedia-icon{
+        padding: 0px 0px 0px;
+    }
+    .li-de{
+        justify-content: center;
+    }
+    .info-padding-section{
+        justify-content: center;
+    }
+}
