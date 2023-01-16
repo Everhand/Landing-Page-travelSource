@@ -92,6 +92,11 @@ main{
 .button-reserve{
     background-color:rgba(222, 122, 0, 0.989);
 }
+.email-register{
+    width: 210px;
+    border-radius: 30px;
+    padding: 10PX;
+}
 /*Content*/
 .list-container{
     display: grid;
@@ -142,6 +147,7 @@ main{
 .destinations-container{
 
     justify-content: bottom;
+    padding-bottom: 80PX;
     
 }
 .destinations-list{
@@ -166,15 +172,11 @@ main{
 
   
 }
-.email-register{
-    width: 210px;
-    border-radius: 30px;
-}
 /*Footer*/
 footer{
     
     background-color: black;
-    height: 530px;
+    height: 400px;
     padding: 80px 0px 50px;
 }
 .nav-footer{
@@ -237,13 +239,4 @@ footer{
     gap: 50px;
     PADDING-top: 10px
 }
-.legal-container{
-    margin: 0px 65.5px;
-}
-.country-link{
-    display: flex;
-    justify-content: flex-end;
-    padding:0px 15px;
-    color: #535353 ;
-    font-size: 14px;
-}
+
