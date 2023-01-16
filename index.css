@@ -92,6 +92,7 @@ main{
 .button-reserve{
     background-color:rgba(222, 122, 0, 0.989);
 }
+/*Content*/
 .list-container{
     display: grid;
     list-style: none;
@@ -119,5 +120,54 @@ main{
     height: 390px;
     padding-top: 20px;
 }
+.destinations-title h3{
+    font-family:'Merriweather' ;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.destinations-title{
+    color: #33282d;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.destinations-title h4{
+
+    font-size: 18px;
+    font-weight: 600;
+}
+.img-destinations{
+    width: 500px;
+    text-decoration: none;
+}
+.destinations-container{
+
+    justify-content: bottom;
+    
+}
+.destinations-list{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    list-style: none;
+    gap: 50PX;
+    align-items: center;
+    
+}
+.text-destinations{
+
+    text-decoration: noNE;
+    color: #33282d;
+    margin-top: 50PX;
+    font-size: 20px;
 
 
+}
+.li-de{
+    justify-self: center;
+
+  
+}
+.email-register{
+    width: 210px;
+    border-radius: 30px;
+}
+/*Footer*/
